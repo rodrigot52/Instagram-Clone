@@ -1,0 +1,22 @@
+{
+  "name": "instragram-clone",
+  "version": "1.0.0",
+  "description": "an Instragram Clone",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Rodrigo Teixeira",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
